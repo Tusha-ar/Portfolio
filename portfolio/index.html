@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+    <script src="./js.js"></script>
+    <link rel="stylesheet" href="lightbox.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <title>
+        Portfolio
+    </title>
+</head>
+
+<body onload="write()">
+    <nav>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#about_main">about</a></li>
+            <li><a href="#skill">skills</a></li>
+            <li><a href="#project">projects</a></li>
+        </ul>
+    </nav>
+    <div id="write">
+        <span id="Write"></span>
+    </div>
+    <div id="about_main">
+        <div id="rec">
+            <h2>about</h2>
+        </div>
+        <div id="png"></div>
+        <div id="about" data-aos="flip-left" duration=5000>
+            <p>I am a student at Chitkara University. Studying Computer Science here. Basically I belong to a small village in Mandi(H.P.). I know a very little Front end designing, basics of solidity
+                , java, C, C++. Currently I am working on my web development skills. Trying to improve everyday in many things. I passed my +2 from Arunodaya Sn. Sr. School.
+                
+            </p>
+        </div>
+    </div>
+    <div id="skill">
+        <div id="rec">
+            <h2>SKILLS</h2>
+        </div>
+        <div id="skills" data-aos="flip-right">
+            <div class="container-skillbar" data-aos="flip-up">
+                <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title" style="background: #DD1E2F;"><span>HTML5 and CSS3</span></div>
+                    <div class="skillbar-bar" style="background: #DD1E2F;"></div>
+                    <div class="skill-bar-percent">60%</div>
+                </div>
+
+                <div class="skillbar clearfix " data-percent="40%">
+                    <div class="skillbar-title" style="background: #EBB035;"><span>JS</span></div>
+                    <div class="skillbar-bar" style="background: #EBB035;"></div>
+                    <div class="skill-bar-percent">40%</div>
+                </div>
+
+                <div class="skillbar clearfix " data-percent="65%">
+                    <div class="skillbar-title" style="background: #06A2CB;"><span>Python 3.0</span></div>
+                    <div class="skillbar-bar" style="background: #06A2CB;"></div>
+                    <div class="skill-bar-percent">65%</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="30%">
+                    <div class="skillbar-title" style="background: #218559;"><span>C</span></div>
+                    <div class="skillbar-bar" style="background: #218559;"></div>
+                    <div class="skill-bar-percent">30%</div>
+                </div>
+
+                <div class="skillbar clearfix " data-percent="35%">
+                    <div class="skillbar-title" style="background: #D0C6B1;"><span>C++</span></div>
+                    <div class="skillbar-bar" style="background: #D0C6B1;"></div>
+                    <div class="skill-bar-percent">35%</div>
+                </div>
+
+                <div class="skillbar clearfix " data-percent="50%">
+                    <div class="skillbar-title" style="background: #bcfa6c;"><span>Java</span></div>
+                    <div class="skillbar-bar" style="background: #bcfa6c;"></div>
+                    <div class="skill-bar-percent">50%</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="30%">
+                    <div class="skillbar-title" style="background: #6b78e4;"><span>Solidity</span></div>
+                    <div class="skillbar-bar" style="background: #6b78e4;"></div>
+                    <div class="skill-bar-percent">30%</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="65%">
+                    <div class="skillbar-title" style="background: #33a780;"><span>AI with Python</span></div>
+                    <div class="skillbar-bar" style="background: #33a780;"></div>
+                    <div class="skill-bar-percent">65%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project" data-aos="fade-up">
+        <div id="rec">
+            <h2>project</h2>
+            
+        </div>
+        <div class="image-container">
+            <div class="img" data-aos="fade-up">
+                <a href="./dog.png" data-lightbox="mygallery"><img src="./dog.png"></a>
+                <div class="color"></div>
+                <div class="caption">
+                        <p class="mini-heading">Dog Image Classifier</p>
+                    <div class="text">
+                        <p class="content">
+                            This is a simple dog breed classifier. It takes an image as an input and gives out the breed of that dog.
+                        </p>
+                        </div>
+                    </div>
+            </div>
+            <div class="img" data-aos="fade-up">
+                <a href="./flower.png" data-lightbox="mygallery"><img src="./flower.png"></a>
+                <div class="color"></div>
+                <div class="caption">
+                        <p class="mini-heading">Flower image Classifier</p>
+                    <div class="text">
+                        <p class="content">
+                            This is a simple flower image classifier. It takes an image as an input and gives out the flower species.
+                        </p>
+                        </div>
+                    </div>
+            </div>
+            <div class="img" data-aos="fade-up">
+                <a href="./solidity.png" data-lightbox="mygallery"><img src="./solidity.png"></a>
+                <div class="color"></div>
+                <div class="caption">
+                        <p class="mini-heading">Solidity</p>
+                    <div class="text">
+                        <p class="content">
+                            Just a small practice project.<strong>Nothing Special ;)</strong>
+                        </p>
+                        </div>
+                    </div>
+            </div>
+            <div class="img" data-aos="fade-up">
+                <a href="./cst.png" data-lightbox="mygallery"><img src="./cst.png"></a>
+                <div class="color"></div>
+                <div class="caption">
+                        <p class="mini-heading">CST Project</p>
+                    <div class="text">
+                        <p class="content">
+                            A cyber Security Website for CST project.
+                        </p>
+                        </div>
+                    </div>
+                
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script>
+    AOS.init({
+        duration: 1000,
+        delay: 200
+    });
+</script>
+<script>
+    jQuery(document).ready(function () {
+        jQuery('#skills').mouseover(function () {
+            jQuery('.skillbar').each(function () {
+                jQuery(this).find('.skillbar-bar').animate({
+                    width: jQuery(this).attr('data-percent')
+                }, 2000);
+            });
+        });
+    });
+</script>
+<script src="./lightbox.js"></script>
+</html>
